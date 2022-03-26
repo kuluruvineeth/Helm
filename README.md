@@ -24,3 +24,16 @@ helm ls
 helm uninstall airflow
 
 ```
+
+## Minikube Installation for Helm
+```
+minikube status
+minikube start --driver=docker
+
+kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.10
+kubectl get pods
+minikube dashboard
+minikube stop
+minikube delete
+
+```
