@@ -37,3 +37,16 @@ minikube stop
 minikube delete
 
 ```
+
+## Minikube Helm Installation
+```
+helm create mychart
+helm install minikubetest ./mychart
+kubectl get all
+helm list
+minikube dashboard
+helm uninstall minikubetest
+minikube stop
+minikube delete
+
+```
